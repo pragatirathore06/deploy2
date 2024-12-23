@@ -42,31 +42,31 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-1 flex flex-col space-y-4">
             <a href="#" className="flex items-center px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-              <img src="src/image/rep.png" alt="Repositories" className="w-6 h-6 mr-2" />
+              <img src="/image/rep.png" alt="Repositories" className="w-6 h-6 mr-2" />
               Repositories
             </a>
             <a href="#" className="flex items-center px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-              <img src="/src/image/AI Code.png" alt="AI Code Review" className="w-4 h-4 mr-2" />
+              <img src="/image/AI Code.png" alt="AI Code Review" className="w-4 h-4 mr-2" />
               AI Code Review
             </a>
             <a href="#" className="flex items-center px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-              <img src="/src/image/cloud.png" alt="Cloud Security" className="w-4 h-4 mr-2" />
+              <img src="/image/cloud.png" alt="Cloud Security" className="w-4 h-4 mr-2" />
               Cloud Security
             </a>
             <a href="#" className="flex items-center px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-              <img src="src/image/use.png" alt="How to Use" className="w-4 h-4 mr-2" />
+              <img src="/image/use.png" alt="How to Use" className="w-4 h-4 mr-2" />
               How to Use
             </a>
             <a href="#" className="flex items-center px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-              <img src="src/image/settings.png" alt="Settings" className="w-4 h-4 mr-2" />
+              <img src="/image/settings.png" alt="Settings" className="w-4 h-4 mr-2" />
               Settings
             </a>
             <a href="#" className="flex items-center px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-              <img src="src/image/support.png" alt="Support" className="w-4 h-4 mr-2" />
+              <img src="/image/support.png" alt="Support" className="w-4 h-4 mr-2" />
               Support
             </a>
             <a href="#" className="flex items-center px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-              <img src="src/image/logout.png" alt="Logout" className="w-4 h-4 mr-2" />
+              <img src="image/logout.png" alt="Logout" className="w-4 h-4 mr-2" />
               Logout
             </a>
           </div>
@@ -76,23 +76,23 @@ const Header = () => {
       {/* Navbar Links for larger screens (Vertical) */}
       <nav className="hidden md:flex flex-col space-y-1 mt-2 flex-grow">
         <a href="#" className="flex items-center m-1 px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-          <img src="src/image/rep.png" alt="Repositories" className="w-6 h-6 mr-2" />
+          <img src="/image/rep.png" alt="Repositories" className="w-6 h-6 mr-2" />
           Repositories
         </a>
         <a href="#" className="flex items-center m-1 px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-          <img src="/src/image/AI Code.png" alt="AI Code Review" className="w-4 h-4 mr-2" />
+          <img src="/image/AI Code.png" alt="AI Code Review" className="w-4 h-4 mr-2" />
           AI Code Review
         </a>
         <a href="#" className="flex items-center m-1 px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-          <img src="/src/image/cloud.png" alt="Cloud Security" className="w-4 h-4 mr-2" />
+          <img src="/image/cloud.png" alt="Cloud Security" className="w-4 h-4 mr-2" />
           Cloud Security
         </a>
         <a href="#" className="flex items-center m-1 px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-          <img src="src/image/use.png" alt="How to Use" className="w-4 h-4 mr-2" />
+          <img src="/image/use.png" alt="How to Use" className="w-4 h-4 mr-2" />
           How to Use
         </a>
         <a href="#" className="flex items-center m-1 px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-          <img src="src/image/settings.png" alt="Settings" className="w-4 h-4 mr-2" />
+          <img src="/image/settings.png" alt="Settings" className="w-4 h-4 mr-2" />
           Settings
         </a>
       </nav>
@@ -100,11 +100,11 @@ const Header = () => {
       {/* Push Support and Logout to the bottom for larger screens */}
       <div className="md:flex flex-col mt-40">
         <a href="#" className="flex items-center bottom-0 m-1 px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-          <img src="src/image/support.png" alt="Support" className="w-5 h-5 mr-2" />
+          <img src="/support.png" alt="Support" className="w-5 h-5 mr-2" />
           Support
         </a>
         <a href="#" className="flex items-center m-1 px-4 py-2 font-bold hover:bg-blue-600 rounded-md hover:text-white">
-          <img src="src/image/logout.png" alt="Logout" className="w-5 h-5 mr-2" />
+          <img src="/image/logout.png" alt="Logout" className="w-5 h-5 mr-2" />
           Logout
         </a>
       </div>

@@ -90,7 +90,7 @@ function App() {
       >
         <div className="flex items-center md:justify-start justify-center mt-5">
           <img
-            src="/src/image/logo.png"
+            src="/image/logo.png"
             alt="Logo"
             className="w-10 h-10 object-cover mr-2"
           />
@@ -122,7 +122,7 @@ function App() {
           {/* Left Side - Code Text */}
           <div className="flex items-center">
             <img
-              src="/src/image/logo.png"
+              src="/image/logo.png"
               alt="Logo"
               className="w-10 h-10 object-cover mr-2"
             />
@@ -149,13 +149,13 @@ function App() {
             <div className="w-full">
               <Dropdown />
               {[ 
-                { name: "Repositories", icon: "/src/image/rep.png" },
-                { name: "AI Code Review", icon: "/src/image/AI Code.png" },
-                { name: "Cloud Security", icon: "/src/image/cloud.png" },
-                { name: "How to use", icon: "/src/image/use.png" },
-                { name: "Settings", icon: "/src/image/settings.png" },
-                { name: "Support", icon: "/src/image/support.png" },
-                { name: "Logout", icon: "/src/image/logout.png" },
+                { name: "Repositories", icon: "/image/rep.png" },
+                { name: "AI Code Review", icon: "/image/AI Code.png" },
+                { name: "Cloud Security", icon: "/image/cloud.png" },
+                { name: "How to use", icon: "/image/use.png" },
+                { name: "Settings", icon: "/image/settings.png" },
+                { name: "Support", icon: "/image/support.png" },
+                { name: "Logout", icon: "/image/logout.png" },
               ].map((item, index) => (
                 <a
                   key={index}
@@ -183,7 +183,7 @@ function App() {
               {/* Refresh Button with Icon */}
               <button className="px-4 py-2 bg-gray-200 text-gray-700 text-sm rounded-lg hover:bg-gray-300 transition-colors duration-300 flex items-center">
                 <img
-                  src="/src/image/ref.png"
+                  src="/image/ref.png"
                   alt="Refresh"
                   className="w-4 h-4 mr-2"
                 />
@@ -192,7 +192,7 @@ function App() {
               {/* Add Button with Icon */}
               <button className="px-4 py-2 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600 transition-colors duration-300 flex items-center">
                 <img
-                  src="/src/image/ad.png"
+                  src="/image/ad.png"
                   alt="Add"
                   className="w-4 h-4 mr-2"
                 />
@@ -237,7 +237,7 @@ function App() {
                 </p>
                 <p className="flex items-center">
                   <img
-                    src="src/image/book.png"
+                    src="/image/book.png"
                     alt="Book Icon"
                     className="w-4 h-4 mr-2"
                   />
